@@ -1,3 +1,9 @@
+Team Members:
+
+Harsh Trivedi
+Malvika Modi
+Harshwardhan Agarwal
+
 # Exploring "Downward Spiral" Effect for Video Streaming Rate Selection
 
 This project is mainly adopted from the ideas proposed in the following paper:
