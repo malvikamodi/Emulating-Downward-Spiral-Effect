@@ -1,6 +1,6 @@
 # Exploring "Downward Spiral" Effect for Video Streaming Rate Selection
 
-This project is mainly adopted from the ideas proposed in the followin paper:
+This project is mainly adopted from the ideas proposed in the following paper:
 
 > **[Confused, Timid, and Unstable: Picking a Video Streaming Rate is Hard](http://yuba.stanford.edu/~nickm/papers/Confused_Timid_and_Unstable_Picking_a_Video_Streaming_Rate_is_Hard.pdf)** Te-Yuan Huang Nikhil Handigol Brandon Heller Nick McKeown Ramesh Johari. IMC'12
 
@@ -16,7 +16,7 @@ Therefore the rate selection must be done based on accurate estimation of availa
 
 Generally, the videos of these services are hosted on standard HTTP servers in CDNs. Hence, the video streaming rate selection must be done on client side. Clients decide rate based on perceived available bandwidth. However, in presence of competing flow, rate selection algorithms have to face a weird consequence which authors call "Downward Spiral". In presence of competing flow, client perceives inaccurate bandwidth which further causes a vicious feedback loop continuously reducing the perceived bandwidth making the client to choose lower and lower playback rate (video quality). Finally, client ends up playing at much lower rate (quality) then the rate sanctioned by its fair share.
 
-Please check our full report [here](https://github.com/HarshTrivedi/FCN-VideoStreamingProject/blob/master/report.pdf) and presentation [here](https://github.com/HarshTrivedi/FCN-VideoStreamingProject/blob/master/slides.pdf)
+Please check our full report [here](https://github.com/malvikamodi/FCN-VideoStreamingProject/blob/master/report.pdf) and presentation [here](https://github.com/malvikamodi/FCN-VideoStreamingProject/blob/master/slides.pdf)
 
 ## Downward Spiral
 
